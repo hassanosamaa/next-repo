@@ -1,0 +1,68 @@
+{
+  "common": {
+    "appName": "Plan P",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "username": "Username"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Plan-P Frontend Application",
+    "description": "The application is now set up with Redux Toolkit, RTK Query, and Ant Design providers.",
+    "documentation": "Documentation"
+  },
+  "test": {
+    "reduxStore": "Redux Store Test",
+    "currentLanguage": "Current Language:",
+    "notSet": "Not set",
+    "setEnglish": "Set English",
+    "setArabic": "Set Arabic",
+    "clearLanguage": "Clear Language",
+    "authenticationStatus": "Authentication Status:",
+    "authenticated": "Authenticated",
+    "notAuthenticated": "Not Authenticated",
+    "user": "User:",
+    "mockLogin": "Mock Login",
+    "logout": "Logout"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "minLength": "Minimum length is {min} characters",
+    "maxLength": "Maximum length is {max} characters"
+  }
+}
+

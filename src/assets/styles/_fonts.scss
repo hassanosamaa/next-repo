@@ -1,0 +1,26 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &[dir='ltr'] {
+    font-family: var(--primary-font-en), serif;
+  }
+
+  &[dir='rtl'] {
+    font-family: var(--primary-font-ar), serif;
+  }
+}
+
+body {
+  &[dir='ltr'] {
+    font: 16px/1.42857143 var(--primary-font-en);
+  }
+
+  &[dir='rtl'] {
+    font: 16px/1.42857143 var(--primary-font-ar);
+  }
+}
+

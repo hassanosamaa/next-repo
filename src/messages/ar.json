@@ -1,0 +1,68 @@
+{
+  "common": {
+    "appName": "خطة P",
+    "welcome": "مرحباً",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "reset": "إعادة تعيين",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "rememberMe": "تذكرني",
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "username": "اسم المستخدم"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج"
+  },
+  "home": {
+    "title": "تطبيق Plan-P الأمامي",
+    "description": "تم إعداد التطبيق الآن باستخدام Redux Toolkit و RTK Query و Ant Design.",
+    "documentation": "التوثيق"
+  },
+  "test": {
+    "reduxStore": "اختبار Redux Store",
+    "currentLanguage": "اللغة الحالية:",
+    "notSet": "غير محددة",
+    "setEnglish": "تعيين الإنجليزية",
+    "setArabic": "تعيين العربية",
+    "clearLanguage": "مسح اللغة",
+    "authenticationStatus": "حالة المصادقة:",
+    "authenticated": "تم المصادقة",
+    "notAuthenticated": "لم يتم المصادقة",
+    "user": "المستخدم:",
+    "mockLogin": "تسجيل دخول وهمي",
+    "logout": "تسجيل الخروج"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "email": "يرجى إدخال بريد إلكتروني صالح",
+    "minLength": "الحد الأدنى للطول هو {min} أحرف",
+    "maxLength": "الحد الأقصى للطول هو {max} حرف"
+  }
+}
+

@@ -1,0 +1,4 @@
+@function px-to-rem($px) {
+    $remValue: $px / 10;
+    @return #{$remValue}rem;
+}

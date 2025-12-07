@@ -1,0 +1,33 @@
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { AppState } from "@/store";
+
+interface ILanguageState {
+  lang: string | null;
+}
+
+const initialState: ILanguageState = {
+  lang: null,
+};
+
+const utilitiesSlice = createSlice({
+  name: "utilitiesSlice",
+  initialState,
+  reducers: {
+    setLang: (state, action: PayloadAction<string | null>) => {
+      state.lang = action.payload;
+    },
+  },
+  // extraReducers: (builder) => {
+  //     builder.addCase(HYDRATE, (state, action: any) => {
+  //         if (!action.payload.utilitiesSlice) {
+  //             return state
+  //         }
+  //         state.lang = action.payload.utilitiesSlice.lang
+  //     })
+  // },
+});
+export const selectUtilitiesSlice = (state: AppState) => state.utilitiesSlice;
+
+export const { setLang } = utilitiesSlice.actions;
+
+export default utilitiesSlice.reducer;

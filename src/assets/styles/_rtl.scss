@@ -1,0 +1,86 @@
+// RTL Support Styles
+
+// Fix for RTL layout
+[dir="rtl"] {
+  // Text alignment
+  .text-left {
+    text-align: right;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+
+  // Margins and paddings
+  .ml-auto {
+    margin-left: unset;
+    margin-right: auto;
+  }
+
+  .mr-auto {
+    margin-right: unset;
+    margin-left: auto;
+  }
+
+  // Flex direction
+  .flex-row {
+    flex-direction: row-reverse;
+  }
+
+  // Ant Design overrides for RTL
+  .ant-layout-sider {
+    right: 0;
+    left: unset;
+  }
+
+  // Forms
+  .ant-form-item-label {
+    text-align: right;
+  }
+
+  // Icons
+  .anticon {
+    transform: scaleX(-1);
+
+    &.no-flip {
+      transform: none;
+    }
+  }
+
+  // Navigation
+  .ant-menu-item,
+  .ant-menu-submenu {
+    text-align: right;
+  }
+
+  // Drawers
+  .ant-drawer-left {
+    right: 0;
+    left: unset;
+  }
+
+  .ant-drawer-right {
+    left: 0;
+    right: unset;
+  }
+}
+
+// LTR default
+[dir="ltr"] {
+  // Default LTR styles (mostly browser defaults)
+}
+
+// Language-specific fonts
+[lang="ar"] {
+  font-family: 'Tajawal', 'Arial', sans-serif;
+
+  // Adjust font sizes for Arabic if needed
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+  }
+}
+
+[lang="en"] {
+  font-family: var(--font-geist-sans), 'Arial', sans-serif;
+}
+

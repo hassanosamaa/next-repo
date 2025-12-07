@@ -1,0 +1,65 @@
+:root {
+  --primary-font-en: 'Poppins', 'serif';
+  --_primaryColor: #18222C;
+  --_secondaryColor: #00CCB8;
+
+
+
+}
+
+.body {
+  font-family: var(--primary-font-en), serif;
+}
+
+[data-theme='dark'] {
+}
+
+$colors: _primaryColor,
+_secondaryColor;
+
+@each $color in $colors {
+  .c#{$color} {
+    color: var(--#{$color});
+  }
+  .bg-c#{$color} {
+    background-color: var(--#{$color});
+  }
+  .b-c#{$color} {
+    border-color: var(--#{$color});
+  }
+  .fill-c#{$color} {
+    path,
+    rect {
+      fill: var(--#{$color});
+    }
+  }
+  .stroke-c#{$color} {
+    path,
+    rect {
+      stroke: var(--#{$color});
+    }
+  }
+
+  .h-c#{$color} {
+    &:hover {
+      color: var(--#{$color});
+    }
+  }
+  .h-bg-c#{$color} {
+    &:hover {
+      background-color: var(--#{$color});
+    }
+  }
+  .h-c#{$color} {
+    &:hover {
+      border-color: var(--#{$color});
+    }
+  }
+  .h-fill-c#{$color} {
+    &:hover {
+      path {
+        fill: var(--#{$color});
+      }
+    }
+  }
+}
